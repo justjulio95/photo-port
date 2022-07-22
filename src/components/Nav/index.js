@@ -34,7 +34,7 @@ function Nav(props) {
           {/*The below code sets up the category selections in the NAV menu*/}
           {categories.map((category) => (
             <li
-              className={`mx-1 ${currentCategory.name === category.name && !contactSelected `navActive`
+              className={`mx-1 ${currentCategory.name === category.name && !contactSelected && `navActive`
                 }`} 
               key={category.name}
             >
